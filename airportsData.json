@@ -1,0 +1,2796 @@
+[
+    {
+      "name": "阿坝/红原",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.35628,
+          32.527577
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "阿尔山/伊尔施",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.919836,
+          47.312031
+        ]
+      },
+      "flights": 4
+    },
+    {
+      "name": "阿克苏/温宿",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.29491,
+          41.261968
+        ]
+      },
+      "flights": 63
+    },
+    {
+      "name": "阿拉尔/塔里木",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.261719,
+          40.438348
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "阿拉善左旗/巴彦浩特",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.588342,
+          38.748737
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "阿勒泰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.086307,
+          47.748487
+        ]
+      },
+      "flights": 22
+    },
+    {
+      "name": "阿里/昆莎",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.055241,
+          32.10133
+        ]
+      },
+      "flights": 5
+    },
+    {
+      "name": "安康/富强",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.935984,
+          32.708546
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "安庆",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.049735,
+          30.583699
+        ]
+      },
+      "flights": 23
+    },
+    {
+      "name": "安顺/黄果树",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.872741,
+          26.259069
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "安阳/红旗渠",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.464364,
+          35.865001
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "鞍山/腾鳌",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.859816,
+          41.109572
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "巴彦淖尔/天吉泰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.745302,
+          40.924685
+        ]
+      },
+      "flights": 22
+    },
+    {
+      "name": "巴中/恩阳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6439,
+          31.73844
+        ]
+      },
+      "flights": 34
+    },
+    {
+      "name": "白城/长安",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.01758,
+          45.507838
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "白山/长白山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.60642,
+          42.067785
+        ]
+      },
+      "flights": 34
+    },
+    {
+      "name": "百色/巴马",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.970375,
+          23.715293
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "包头/东河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.997426,
+          40.564151
+        ]
+      },
+      "flights": 80
+    },
+    {
+      "name": "保山/云瑞",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.164948,
+          25.050349
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "北海/福成",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.291197,
+          21.541504
+        ]
+      },
+      "flights": 51
+    },
+    {
+      "name": "北京/大兴",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.411183,
+          39.510293
+        ]
+      },
+      "flights": 247
+    },
+    {
+      "name": "北京/首都",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.601953,
+          40.079833
+        ]
+      },
+      "flights": 242
+    },
+    {
+      "name": "毕节/飞雄",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.479568,
+          27.266105
+        ]
+      },
+      "flights": 30
+    },
+    {
+      "name": "博乐/阿拉山口",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.29953,
+          44.898597
+        ]
+      },
+      "flights": 21
+    },
+    {
+      "name": "布尔津/喀纳斯",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.0023,
+          48.223268
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "沧源/佤山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.364792,
+          23.267486
+        ]
+      },
+      "flights": 5
+    },
+    {
+      "name": "昌都/邦达",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.107123,
+          30.550961
+        ]
+      },
+      "flights": 9
+    },
+    {
+      "name": "常德/桃花源",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.641207,
+          28.92203
+        ]
+      },
+      "flights": 33
+    },
+    {
+      "name": "常州/奔牛",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.784182,
+          31.914006
+        ]
+      },
+      "flights": 81
+    },
+    {
+      "name": "朝阳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.434675,
+          41.5454
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "郴州/北湖",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.844579,
+          25.752712
+        ]
+      },
+      "flights": 29
+    },
+    {
+      "name": "成都/双流",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.94406,
+          30.561684
+        ]
+      },
+      "flights": 155
+    },
+    {
+      "name": "成都/天府",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.44127,
+          30.314297
+        ]
+      },
+      "flights": 324
+    },
+    {
+      "name": "承德/普宁",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.074551,
+          41.125282
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "池州/九华山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.684757,
+          30.738572
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "赤峰/玉龙",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.837803,
+          42.1558
+        ]
+      },
+      "flights": 64
+    },
+    {
+      "name": "达州/金垭",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.437723,
+          31.044947
+        ]
+      },
+      "flights": 78
+    },
+    {
+      "name": "大理/凤仪",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.320125,
+          25.652088
+        ]
+      },
+      "flights": 61
+    },
+    {
+      "name": "大连/周水子",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537228,
+          38.965214
+        ]
+      },
+      "flights": 199
+    },
+    {
+      "name": "大庆/萨尔图",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.139421,
+          46.749519
+        ]
+      },
+      "flights": 21
+    },
+    {
+      "name": "大同/云冈",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.482902,
+          40.056796
+        ]
+      },
+      "flights": 44
+    },
+    {
+      "name": "大兴安岭/鄂伦春",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.114969,
+          50.380816
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "丹东/浪头",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.286584,
+          40.026013
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "稻城/亚丁",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.068414,
+          29.308922
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "德宏/芒市",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.531184,
+          24.402672
+        ]
+      },
+      "flights": 58
+    },
+    {
+      "name": "迪庆/香格里拉",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.681141,
+          27.794873
+        ]
+      },
+      "flights": 11
+    },
+    {
+      "name": "东营/胜利",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.790093,
+          37.510632
+        ]
+      },
+      "flights": 39
+    },
+    {
+      "name": "敦煌/莫高",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.804609,
+          40.164387
+        ]
+      },
+      "flights": 17
+    },
+    {
+      "name": "鄂尔多斯/伊金霍洛",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.858652,
+          39.497299
+        ]
+      },
+      "flights": 113
+    },
+    {
+      "name": "鄂州/花湖国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.029403,
+          30.342976
+        ]
+      },
+      "flights": 95
+    },
+    {
+      "name": "恩施/许家坪",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.48523,
+          30.319843
+        ]
+      },
+      "flights": 49
+    },
+    {
+      "name": "二连浩特/赛乌素",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.096028,
+          43.426109
+        ]
+      },
+      "flights": 21
+    },
+    {
+      "name": "佛山/沙堤",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.066417,
+          23.073432
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "福州/长乐",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.666687,
+          25.931671
+        ]
+      },
+      "flights": 161
+    },
+    {
+      "name": "抚远/东极",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.375559,
+          48.204059
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "阜阳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.737118,
+          32.879581
+        ]
+      },
+      "flights": 41
+    },
+    {
+      "name": "富蕴/可可托海",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.513145,
+          46.807233
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "甘南/夏河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.620541,
+          34.821895
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "甘孜/格萨尔",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.555294,
+          31.752485
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "甘孜/康定",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.749259,
+          30.132135
+        ]
+      },
+      "flights": 4
+    },
+    {
+      "name": "赣州/黄金",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.777395,
+          25.849552
+        ]
+      },
+      "flights": 61
+    },
+    {
+      "name": "格尔木",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.789255,
+          36.40328
+        ]
+      },
+      "flights": 9
+    },
+    {
+      "name": "固原/六盘山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.221377,
+          36.076198
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "广元/盘龙",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.701838,
+          32.39372
+        ]
+      },
+      "flights": 34
+    },
+    {
+      "name": "广州/白云",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.307358,
+          23.397316
+        ]
+      },
+      "flights": 273
+    },
+    {
+      "name": "贵阳/龙洞堡",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.799361,
+          26.541076
+        ]
+      },
+      "flights": 244
+    },
+    {
+      "name": "桂林/两江",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.044941,
+          25.216161
+        ]
+      },
+      "flights": 122
+    },
+    {
+      "name": "果洛/玛沁",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.301842,
+          34.421054
+        ]
+      },
+      "flights": 3
+    },
+    {
+      "name": "哈尔滨/太平",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.242126,
+          45.621797
+        ]
+      },
+      "flights": 193
+    },
+    {
+      "name": "哈密",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.655863,
+          42.840435
+        ]
+      },
+      "flights": 29
+    },
+    {
+      "name": "海北/祁连",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.642521,
+          38.012371
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "海口/美兰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.456231,
+          19.939093
+        ]
+      },
+      "flights": 224
+    },
+    {
+      "name": "海西/德令哈",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.266532,
+          37.127911
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "海西/花土沟",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.84128,
+          38.203501
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "邯郸",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.425601,
+          36.523743
+        ]
+      },
+      "flights": 36
+    },
+    {
+      "name": "汉中/城固",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.194631,
+          33.127111
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "杭州/萧山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.438504,
+          30.236393
+        ]
+      },
+      "flights": 215
+    },
+    {
+      "name": "合肥/新桥",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.981373,
+          31.973785
+        ]
+      },
+      "flights": 165
+    },
+    {
+      "name": "和田/昆冈",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.872099,
+          37.038656
+        ]
+      },
+      "flights": 37
+    },
+    {
+      "name": "河池/金城江",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.71341,
+          24.800131
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "菏泽/牡丹",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.732085,
+          35.214012
+        ]
+      },
+      "flights": 29
+    },
+    {
+      "name": "黑河/瑷珲",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.310948,
+          50.178048
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "衡阳/南岳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.615217,
+          26.724083
+        ]
+      },
+      "flights": 52
+    },
+    {
+      "name": "呼和浩特/白塔",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.820708,
+          40.853799
+        ]
+      },
+      "flights": 193
+    },
+    {
+      "name": "呼伦贝尔/海拉尔",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.816641,
+          49.209446
+        ]
+      },
+      "flights": 38
+    },
+    {
+      "name": "怀化/芷江",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.699892,
+          27.443209
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "淮安/涟水",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.129069,
+          33.790069
+        ]
+      },
+      "flights": 63
+    },
+    {
+      "name": "黄山/屯溪",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.260131,
+          29.730442
+        ]
+      },
+      "flights": 15
+    },
+    {
+      "name": "惠州/平潭",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.60728,
+          23.051453
+        ]
+      },
+      "flights": 75
+    },
+    {
+      "name": "霍林郭勒/霍林河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.414808,
+          45.485543
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "鸡西/兴凯湖",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.180631,
+          45.299183
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "吉安/井冈山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.735734,
+          26.855998
+        ]
+      },
+      "flights": 55
+    },
+    {
+      "name": "济南/遥墙",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.213546,
+          36.857226
+        ]
+      },
+      "flights": 168
+    },
+    {
+      "name": "济宁/大安",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.745554,
+          35.644407
+        ]
+      },
+      "flights": 69
+    },
+    {
+      "name": "佳木斯/东郊",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.45855,
+          46.843679
+        ]
+      },
+      "flights": 29
+    },
+    {
+      "name": "嘉峪关/酒泉",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.337999,
+          39.864105
+        ]
+      },
+      "flights": 32
+    },
+    {
+      "name": "建三江/湿地",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.665017,
+          47.107773
+        ]
+      },
+      "flights": 4
+    },
+    {
+      "name": "揭阳/潮汕",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.508587,
+          23.549631
+        ]
+      },
+      "flights": 129
+    },
+    {
+      "name": "金昌/金川",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.347993,
+          38.542464
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "锦州/锦州湾",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.279248,
+          40.931205
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "荆州/沙市",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.277805,
+          30.322184
+        ]
+      },
+      "flights": 55
+    },
+    {
+      "name": "景德镇/罗家",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.174844,
+          29.338928
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "九江/庐山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.80605,
+          29.482294
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "九寨/黄龙",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.685997,
+          32.852666
+        ]
+      },
+      "flights": 4
+    },
+    {
+      "name": "喀什/徕宁",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.009016,
+          39.537611
+        ]
+      },
+      "flights": 71
+    },
+    {
+      "name": "克拉玛依",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.956089,
+          45.467448
+        ]
+      },
+      "flights": 32
+    },
+    {
+      "name": "库车/龟兹",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.876307,
+          41.680859
+        ]
+      },
+      "flights": 36
+    },
+    {
+      "name": "库尔勒",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.142958,
+          41.621423
+        ]
+      },
+      "flights": 77
+    },
+    {
+      "name": "昆明/长水",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.930861,
+          25.099202
+        ]
+      },
+      "flights": 282
+    },
+    {
+      "name": "拉萨/贡嘎国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.89753,
+          29.294374
+        ]
+      },
+      "flights": 75
+    },
+    {
+      "name": "兰州/中川",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.618069,
+          36.515388
+        ]
+      },
+      "flights": 205
+    },
+    {
+      "name": "澜沧/景迈",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.785512,
+          22.41693
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "阆中/古城",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.041408,
+          31.507874
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "丽江/三义",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.244486,
+          26.667915
+        ]
+      },
+      "flights": 133
+    },
+    {
+      "name": "连云港/花果山国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.181814,
+          34.410105
+        ]
+      },
+      "flights": 58
+    },
+    {
+      "name": "林芝/米林",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.333825,
+          29.305411
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "临沧/博尚",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.024736,
+          23.740852
+        ]
+      },
+      "flights": 17
+    },
+    {
+      "name": "临汾/尧都",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.638371,
+          36.131533
+        ]
+      },
+      "flights": 43
+    },
+    {
+      "name": "临沂/启阳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.410001,
+          35.043267
+        ]
+      },
+      "flights": 67
+    },
+    {
+      "name": "柳州/白莲",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.398178,
+          24.204415
+        ]
+      },
+      "flights": 56
+    },
+    {
+      "name": "六盘水/月照",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.97081,
+          26.603454
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "陇南/成县",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79689,
+          33.787998
+        ]
+      },
+      "flights": 19
+    },
+    {
+      "name": "泸州/云龙",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.461906,
+          29.023195
+        ]
+      },
+      "flights": 78
+    },
+    {
+      "name": "吕梁/大武",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.142388,
+          37.684927
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "洛阳/北郊",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.388151,
+          34.737637
+        ]
+      },
+      "flights": 40
+    },
+    {
+      "name": "满洲里/西郊",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.328722,
+          49.569212
+        ]
+      },
+      "flights": 18
+    },
+    {
+      "name": "梅州/梅县",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.098808,
+          24.264164
+        ]
+      },
+      "flights": 13
+    },
+    {
+      "name": "绵阳/南郊",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.747888,
+          31.425194
+        ]
+      },
+      "flights": 83
+    },
+    {
+      "name": "漠河/古莲",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.419103,
+          52.922701
+        ]
+      },
+      "flights": 17
+    },
+    {
+      "name": "牡丹江/海浪",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.568642,
+          44.524373
+        ]
+      },
+      "flights": 24
+    },
+    {
+      "name": "南昌/昌北",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.906323,
+          28.859758
+        ]
+      },
+      "flights": 174
+    },
+    {
+      "name": "南充/高坪",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.159617,
+          30.794013
+        ]
+      },
+      "flights": 41
+    },
+    {
+      "name": "南京/禄口",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.871513,
+          31.732781
+        ]
+      },
+      "flights": 212
+    },
+    {
+      "name": "南宁/吴圩",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.169942,
+          22.610932
+        ]
+      },
+      "flights": 143
+    },
+    {
+      "name": "南通/兴东",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.977508,
+          32.070751
+        ]
+      },
+      "flights": 81
+    },
+    {
+      "name": "南阳/姜营",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.614999,
+          32.980563
+        ]
+      },
+      "flights": 43
+    },
+    {
+      "name": "宁波/栎社",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458249,
+          29.825388
+        ]
+      },
+      "flights": 162
+    },
+    {
+      "name": "宁蒗/泸沽湖",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.759257,
+          27.54266
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "攀枝花/保安营",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79557,
+          26.532829
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "普洱/思茅",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.960891,
+          22.795422
+        ]
+      },
+      "flights": 17
+    },
+    {
+      "name": "齐齐哈尔/三家子",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.915701,
+          47.251384
+        ]
+      },
+      "flights": 24
+    },
+    {
+      "name": "奇台/江布拉克",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.554641,
+          44.164873
+        ]
+      },
+      "flights": 15
+    },
+    {
+      "name": "黔江/武陵山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.830204,
+          29.515869
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "黔南/荔波",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.961158,
+          25.448663
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "且末/玉都",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.463223,
+          38.231926
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "秦皇岛/北戴河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.058019,
+          39.66269
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "青岛/胶东",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.085362,
+          36.360964
+        ]
+      },
+      "flights": 195
+    },
+    {
+      "name": "庆阳/西峰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.601737,
+          35.800375
+        ]
+      },
+      "flights": 29
+    },
+    {
+      "name": "琼海/博鳌国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.454709,
+          19.138547
+        ]
+      },
+      "flights": 51
+    },
+    {
+      "name": "衢州",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.898654,
+          28.9689
+        ]
+      },
+      "flights": 43
+    },
+    {
+      "name": "泉州/晋江",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.592894,
+          24.799801
+        ]
+      },
+      "flights": 155
+    },
+    {
+      "name": "日喀则/定日",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.798943,
+          28.604689
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "日喀则/和平",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.299986,
+          29.350542
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "日照/山字河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.316015,
+          35.40563
+        ]
+      },
+      "flights": 29
+    },
+    {
+      "name": "若羌/楼兰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.014702,
+          38.973809
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "三明/沙县",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.828095,
+          26.424831
+        ]
+      },
+      "flights": 23
+    },
+    {
+      "name": "三沙/永兴",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.342529,
+          16.83272
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "三亚/凤凰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.411054,
+          18.305962
+        ]
+      },
+      "flights": 139
+    },
+    {
+      "name": "莎车/叶尔羌",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.060473,
+          38.24555
+        ]
+      },
+      "flights": 21
+    },
+    {
+      "name": "厦门/高崎",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.142332,
+          24.54816
+        ]
+      },
+      "flights": 181
+    },
+    {
+      "name": "山南/隆子",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.345349,
+          28.427404
+        ]
+      },
+      "flights": 2
+    },
+    {
+      "name": "上海/虹桥",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.329748,
+          31.192659
+        ]
+      },
+      "flights": 120
+    },
+    {
+      "name": "上海/浦东",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.807758,
+          31.143931
+        ]
+      },
+      "flights": 282
+    },
+    {
+      "name": "上饶/三清山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.967251,
+          28.381115
+        ]
+      },
+      "flights": 31
+    },
+    {
+      "name": "韶关/丹霞",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.426349,
+          24.972498
+        ]
+      },
+      "flights": 19
+    },
+    {
+      "name": "邵阳/武冈",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.641671,
+          26.801855
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "深圳/宝安",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.81452,
+          22.638927
+        ]
+      },
+      "flights": 249
+    },
+    {
+      "name": "神农架/红坪",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.339355,
+          31.620173
+        ]
+      },
+      "flights": 3
+    },
+    {
+      "name": "沈阳/桃仙",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.490629,
+          41.638296
+        ]
+      },
+      "flights": 186
+    },
+    {
+      "name": "十堰/武当山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.905735,
+          32.589674
+        ]
+      },
+      "flights": 50
+    },
+    {
+      "name": "石河子/花园",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.894084,
+          44.244709
+        ]
+      },
+      "flights": 26
+    },
+    {
+      "name": "石家庄/正定",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.694854,
+          38.280614
+        ]
+      },
+      "flights": 182
+    },
+    {
+      "name": "朔州/滋润",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.689085,
+          39.276954
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "松原/查干湖",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.552728,
+          44.936703
+        ]
+      },
+      "flights": 13
+    },
+    {
+      "name": "塔城",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.342685,
+          46.671636
+        ]
+      },
+      "flights": 24
+    },
+    {
+      "name": "塔什库尔干/红其拉甫",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.291137,
+          37.657682
+        ]
+      },
+      "flights": 3
+    },
+    {
+      "name": "台州/路桥",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.431298,
+          28.563612
+        ]
+      },
+      "flights": 55
+    },
+    {
+      "name": "太原/武宿",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.63035,
+          37.748768
+        ]
+      },
+      "flights": 199
+    },
+    {
+      "name": "唐山/三女河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.994838,
+          39.720112
+        ]
+      },
+      "flights": 22
+    },
+    {
+      "name": "腾冲/驼峰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.483859,
+          24.938022
+        ]
+      },
+      "flights": 42
+    },
+    {
+      "name": "天津/滨海",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.360305,
+          39.129158
+        ]
+      },
+      "flights": 228
+    },
+    {
+      "name": "天水/麦积山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.87038,
+          34.557119
+        ]
+      },
+      "flights": 4
+    },
+    {
+      "name": "通化/三源浦",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.74274,
+          42.052202
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "通辽",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.203123,
+          43.55703
+        ]
+      },
+      "flights": 43
+    },
+    {
+      "name": "铜仁/凤凰",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.306454,
+          27.88409
+        ]
+      },
+      "flights": 32
+    },
+    {
+      "name": "图木舒克/唐王城",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.232206,
+          39.889642
+        ]
+      },
+      "flights": 22
+    },
+    {
+      "name": "吐鲁番/交河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.103019,
+          43.02832
+        ]
+      },
+      "flights": 39
+    },
+    {
+      "name": "万州/五桥",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.430199,
+          30.801569
+        ]
+      },
+      "flights": 43
+    },
+    {
+      "name": "威海/大水泊国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.228685,
+          37.186305
+        ]
+      },
+      "flights": 62
+    },
+    {
+      "name": "潍坊",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.114478,
+          36.64556
+        ]
+      },
+      "flights": 37
+    },
+    {
+      "name": "温州/龙湾",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.853589,
+          27.910803
+        ]
+      },
+      "flights": 176
+    },
+    {
+      "name": "文山/砚山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.330849,
+          23.566086
+        ]
+      },
+      "flights": 15
+    },
+    {
+      "name": "乌海",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.801792,
+          39.79197
+        ]
+      },
+      "flights": 31
+    },
+    {
+      "name": "乌兰察布/集宁",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.110565,
+          41.127581
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "乌兰浩特/义勒力特",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.006824,
+          46.195614
+        ]
+      },
+      "flights": 43
+    },
+    {
+      "name": "乌鲁木齐/地窝堡",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.480414,
+          43.911048
+        ]
+      },
+      "flights": 164
+    },
+    {
+      "name": "无锡/硕放",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.435139,
+          31.498324
+        ]
+      },
+      "flights": 93
+    },
+    {
+      "name": "芜湖/宣州",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6626,
+          31.10639
+        ]
+      },
+      "flights": 53
+    },
+    {
+      "name": "梧州/西江",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.100231,
+          23.399654
+        ]
+      },
+      "flights": 12
+    },
+    {
+      "name": "五大连池/德都",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.132006,
+          48.445302
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "武汉/天河",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.216446,
+          30.775255
+        ]
+      },
+      "flights": 240
+    },
+    {
+      "name": "武夷山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.002226,
+          27.705142
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "西安/咸阳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.759017,
+          34.435104
+        ]
+      },
+      "flights": 312
+    },
+    {
+      "name": "西昌/青山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.184662,
+          27.979418
+        ]
+      },
+      "flights": 47
+    },
+    {
+      "name": "西宁/曹家堡",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.039333,
+          36.527543
+        ]
+      },
+      "flights": 100
+    },
+    {
+      "name": "西双版纳/嘎洒",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.765403,
+          21.972265
+        ]
+      },
+      "flights": 110
+    },
+    {
+      "name": "锡林浩特",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.966852,
+          43.919072
+        ]
+      },
+      "flights": 40
+    },
+    {
+      "name": "湘西/边城",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.521881,
+          28.494708
+        ]
+      },
+      "flights": 13
+    },
+    {
+      "name": "襄阳/刘集",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.289882,
+          32.150308
+        ]
+      },
+      "flights": 64
+    },
+    {
+      "name": "忻州/五台山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.983548,
+          38.598137
+        ]
+      },
+      "flights": 24
+    },
+    {
+      "name": "新源/那拉提",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.37699,
+          43.426937
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "信阳/明港",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.066413,
+          32.539351
+        ]
+      },
+      "flights": 14
+    },
+    {
+      "name": "邢台",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.427659,
+          36.87443
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "兴义/万峰林",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.95822,
+          25.084433
+        ]
+      },
+      "flights": 49
+    },
+    {
+      "name": "徐州/观音",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.558038,
+          34.056497
+        ]
+      },
+      "flights": 71
+    },
+    {
+      "name": "烟台/蓬莱",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.989304,
+          37.660388
+        ]
+      },
+      "flights": 132
+    },
+    {
+      "name": "延安/南泥湾",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.471031,
+          36.475553
+        ]
+      },
+      "flights": 37
+    },
+    {
+      "name": "延吉/朝阳川",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.439103,
+          42.883628
+        ]
+      },
+      "flights": 31
+    },
+    {
+      "name": "盐城/南洋",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.206314,
+          33.432893
+        ]
+      },
+      "flights": 47
+    },
+    {
+      "name": "扬州/泰州",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.714096,
+          32.563084
+        ]
+      },
+      "flights": 70
+    },
+    {
+      "name": "伊春/林都",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.828025,
+          47.719474
+        ]
+      },
+      "flights": 19
+    },
+    {
+      "name": "伊犁伊宁",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.330946,
+          43.953361
+        ]
+      },
+      "flights": 51
+    },
+    {
+      "name": "宜宾/五粮液",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.532346,
+          28.85239
+        ]
+      },
+      "flights": 82
+    },
+    {
+      "name": "宜昌/三峡国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.481757,
+          30.550125
+        ]
+      },
+      "flights": 106
+    },
+    {
+      "name": "宜春/明月山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.310192,
+          27.801502
+        ]
+      },
+      "flights": 30
+    },
+    {
+      "name": "义乌",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.02922,
+          29.34145
+        ]
+      },
+      "flights": 53
+    },
+    {
+      "name": "银川/河东",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.387092,
+          38.322769
+        ]
+      },
+      "flights": 170
+    },
+    {
+      "name": "营口/蓝旗",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.351686,
+          40.540752
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "永州/零陵",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.612079,
+          26.344043
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "于田/万方",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.780704,
+          36.811486
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "榆林/榆阳",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.596894,
+          38.360644
+        ]
+      },
+      "flights": 69
+    },
+    {
+      "name": "玉林/福绵",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.119504,
+          22.438019
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "玉树/巴塘",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.123264,
+          32.82642
+        ]
+      },
+      "flights": 8
+    },
+    {
+      "name": "岳阳/三荷",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.278557,
+          29.313527
+        ]
+      },
+      "flights": 30
+    },
+    {
+      "name": "运城/盐湖国际",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.037295,
+          35.115952
+        ]
+      },
+      "flights": 69
+    },
+    {
+      "name": "扎兰屯/成吉思汗",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.770418,
+          47.872241
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "湛江",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359813,
+          21.211464
+        ]
+      },
+      "flights": 89
+    },
+    {
+      "name": "张家界/荷花",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.448562,
+          29.105993
+        ]
+      },
+      "flights": 35
+    },
+    {
+      "name": "张家口/宁远",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.944067,
+          40.739039
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "张掖/甘州",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.654097,
+          38.81292
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "长春/龙嘉",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.695918,
+          43.995813
+        ]
+      },
+      "flights": 151
+    },
+    {
+      "name": "长沙/黄花",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.22123,
+          28.196345
+        ]
+      },
+      "flights": 246
+    },
+    {
+      "name": "长治/王村",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.126025,
+          36.247531
+        ]
+      },
+      "flights": 32
+    },
+    {
+      "name": "昭苏/天马",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.222416,
+          43.087948
+        ]
+      },
+      "flights": 10
+    },
+    {
+      "name": "昭通",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.752995,
+          27.324197
+        ]
+      },
+      "flights": 31
+    },
+    {
+      "name": "郑州/新郑",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.842981,
+          34.523883
+        ]
+      },
+      "flights": 248
+    },
+    {
+      "name": "中卫/沙坡头",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.153159,
+          37.571248
+        ]
+      },
+      "flights": 20
+    },
+    {
+      "name": "重庆/江北",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.639242,
+          29.719353
+        ]
+      },
+      "flights": 276
+    },
+    {
+      "name": "重庆巫山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.710613,
+          31.069547
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "重庆仙女山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.694125,
+          29.468486
+        ]
+      },
+      "flights": 6
+    },
+    {
+      "name": "舟山/普陀山",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.361997,
+          29.932033
+        ]
+      },
+      "flights": 60
+    },
+    {
+      "name": "珠海/金湾",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.376254,
+          22.009047
+        ]
+      },
+      "flights": 124
+    },
+    {
+      "name": "遵义/茅台",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.436808,
+          27.965903
+        ]
+      },
+      "flights": 63
+    },
+    {
+      "name": "遵义/新舟",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.247891,
+          27.802729
+        ]
+      },
+      "flights": 43
+    }
+  ]

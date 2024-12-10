@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>机场数据可视化</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #container {
+            width: 90%;
+            height: 600px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            padding: 15px 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+
+        footer a {
+            color: #004d99;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 菜单栏 -->
+    <nav>
+        <ul>
+            <li><a href="Home.html">境内出发/到达</a></li>
+            <li><a href="International.html">境外出发/到达</a></li>
+            <li><a href="HeatMap.html">热图</a></li>
+            <li><a href="Airports.html">机场数据统计</a></li>
+            <li><a href="aboutUs.html">关于我们</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <input type="text" id="airportInput" placeholder="选择机场" list="airportList">
+        <button id="searchButton">搜索</button>
+    </div>
+
+    <!-- 机场列表 -->
+    <datalist id="airportList">
+    </datalist>
+
+    <div id="container"></div>
+
+    <footer>
+        视图模版来源：<a href="https://highcharts.com" target="_blank">Highcharts</a>｜数据来源：<a href="http://www.caac.gov.cn/index.html" target="_blank">中国民用航空局</a><br>
+        © 2024 畅通无组 | 数据可视化课程项目
+    </footer>
+
+    <script>
+        // 异步函数来填充机场列表
+        async function populateAirportList() {
+            try {
+                const response = await fetch('http://localhost:3000/api/airports'); // 获取机场数据
+                const airportData = await response.json(); // 解析为 JSON
+                const airportList = document.getElementById('airportList');
+
+                // 将机场数据填充到 <datalist> 中
+                airportData.forEach(airport => {
+                    const option = document.createElement('option');
+                    option.value = airport.name;
+                    airportList.appendChild(option);
+                });
+            } catch (error) {
+                console.error("Error fetching airport data:", error);
+            }
+        }
+
+        // 获取数据并更新图表
+        function fetchDataAndUpdateChart(airport) {
+            const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022];
+            const passengerTraffic = [];
+            const cargoMailTraffic = [];
+            const takeOffLandings = [];
+
+            // 使用 Promise.all 来并行获取不同年份的数据
+            Promise.all(years.map(year => 
+                fetch(`http://localhost:3000/api/airport${year}?name=${airport}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(`Fetching data for ${airport} in ${year}:`, data);  // 添加日志输出
+
+                        // 如果没有找到数据，则将该年的 count 设为 0
+                        if (data && data.length > 0) {
+                            passengerTraffic.push(data[0].passengerTraffic.count);
+                            cargoMailTraffic.push(data[0].cargoMailTraffic.count);
+                            takeOffLandings.push(data[0].takeOffLandings.count);
+                        } else {
+                            passengerTraffic.push(0);
+                            cargoMailTraffic.push(0);
+                            takeOffLandings.push(0);
+                        }
+                    })
+            )).then(() => {
+                console.log('Passenger Traffic:', passengerTraffic);  // 打印数组
+                console.log('Cargo Traffic:', cargoMailTraffic);  // 打印数组
+                console.log('Takeoff Landings:', takeOffLandings);  // 打印数组
+
+                // 更新图表
+                Highcharts.chart('container', {
+                    title: {
+                        text: airport + ' 数据'
+                    },
+                    subtitle: {
+                        text: '2016-2022'
+                    },
+                    xAxis: {
+                        categories: years
+                    },
+                    yAxis: {
+                        title: {
+                            text: '数量'
+                        }
+                    },
+                    series: [{
+                        name: '旅客吞吐量',
+                        data: passengerTraffic
+                    }, {
+                        name: '货邮吞吐量',
+                        data: cargoMailTraffic
+                    }, {
+                        name: '起降架次',
+                        data: takeOffLandings
+                    }]
+                });
+            });
+        }
+
+        // 设置初始展示为浦东机场的数据
+        window.onload = function() {
+            populateAirportList();
+            fetchDataAndUpdateChart("上海/浦东");  // 默认展示浦东机场的数据
+        };
+
+        // 监听搜索按钮点击事件
+        document.getElementById('searchButton').addEventListener('click', function() {
+            const airport = document.getElementById('airportInput').value;
+            if (airport) {
+                fetchDataAndUpdateChart(airport);
+            } else {
+                alert("请输入有效的机场名称");
+            }
+        });
+    </script>
+
+</body>
+</html>

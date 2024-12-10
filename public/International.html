@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highcharts Map - International Routes</title>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* 背景颜色 */
+        }
+
+        header {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 标题区域阴影 */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* 菜单栏样式 */
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        #container {
+            width: 90%;
+            height: 600px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 地图容器阴影 */
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            padding: 15px 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+
+        footer a {
+            color: #004d99;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .animated-line {
+            stroke-dasharray: 8;
+            stroke-dashoffset: 10;
+            animation: dash 5s linear infinite;
+        }
+
+        @keyframes dash {
+            from {
+                stroke-dashoffset: 100;
+            }
+            to {
+                stroke-dashoffset: 20;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html">境内出发/到达</a></li>
+            <li><a href="International.html">境外出发/到达</a></li>
+            <li><a href="HeatMap.html">热图</a></li>
+            <li><a href="Airports.html">机场数据统计</a></li>
+            <li><a href="aboutUs.html">关于我们</a></li>
+        </ul>
+    </nav>
+    <div>
+        <input type="text" id="originInput" placeholder="出发地" list="airportList">
+        <input type="text" id="destinationInput" placeholder="目的地" list="airportList">
+        <input type="text" id="flightNumberInput" placeholder="航班号">
+        <button id="searchButton">搜索</button>
+    </div>
+
+    <!-- 机场列表，用于自动完成 -->
+    <datalist id="airportList">
+        <!-- 机场名称将在脚本中动态填充 -->
+    </datalist>
+    <div id="container" style="width: 100%; height: 600px;"></div>
+
+    <footer>
+        视图模版来源：<a href="https://highcharts.com" target="_blank">Highcharts</a>｜数据来源：<a href="http://www.caac.gov.cn/index.html" target="_blank">中国民用航空局</a><br>
+        © 2024 畅通无组 | 数据可视化课程项目
+    </footer>
+
+    <script>
+        (async () => {
+            // 加载世界地图数据
+            const topology = await fetch(
+                'https://code.highcharts.com/mapdata/custom/world.topo.json'
+            ).then(response => response.json());
+
+            // 加载机场数据
+            const airportData = await fetch('http://localhost:3000/api/airports_i')
+                .then(response => response.json())
+                .catch(error => {
+                    console.error("Error loading airports data:", error);
+                    return [];
+                });
+
+            // 创建机场名称与坐标的映射
+            const airportMap = {};
+            const airportNameToCoords = {};
+            airportData.forEach(airport => {
+                const [longitude, latitude] = airport.geometry.coordinates;
+                const coordKey = `${longitude.toFixed(6)},${latitude.toFixed(6)}`;
+                airportMap[coordKey] = airport.name;
+                airportNameToCoords[airport.name] = [longitude, latitude];
+            });
+
+            // 填充机场列表，用于自动完成
+            const airportList = document.getElementById('airportList');
+            airportData.forEach(airport => {
+                const option = document.createElement('option');
+                option.value = airport.name;
+                airportList.appendChild(option);
+            });
+
+            // 初始化 Highcharts 地图
+            const chart = Highcharts.mapChart('container', {
+                chart: { map: topology },
+                title: { text: '国际航线图' },
+                legend: { enabled: false },
+                tooltip: {
+                    useHTML: true,
+                    hideDelay: 0,
+                    headerFormat: '',
+                    pointFormat: '{point.tooltipText}'
+                },
+                series: [
+                    {
+                        type: 'map',
+                        name: 'World',
+                        data: [],
+                        states: { hover: { color: '#a4edba' } },
+                        enableMouseTracking: false
+                    },
+                    {
+                        type: 'mappoint',
+                        color: '#333',
+                        name: 'Airports',
+                        dataLabels: { enabled: false },
+                        data: airportData.map(airport => ({
+                            name: airport.name,
+                            tooltipText: `<b>${airport.name}</b>`,
+                            geometry: airport.geometry,
+                            coordinates: airport.geometry.coordinates,
+                            color: '#333',
+                            marker: {
+                                radius: 1 // 默认大小
+                            }
+                        })),
+                        point: {
+                            events: {
+                                click: async function () {
+                                    const point = this;
+
+                                    // 清空已有航线
+                                    while (chart.series.length > 2) {
+                                        chart.series[chart.series.length - 1].remove(false);
+                                    }
+
+                                    // 恢复所有机场点的默认样式
+                                    chart.series[1].data.forEach(airportPoint => {
+                                        airportPoint.update({
+                                            color: '#333',
+                                            marker: { radius: 4 }
+                                        }, false);
+                                    });
+
+                                    // 获取该机场相关的航线数据
+                                    const routesData = await fetch(`http://localhost:3000/api/routes_i?longitude=${point.coordinates[0]}&latitude=${point.coordinates[1]}`)
+                                        .then(response => response.json())
+                                        .catch(error => {
+                                            console.error("Error loading routes data:", error);
+                                            return [];
+                                        });
+
+                                    // 如果未找到任何航线，提示用户
+                                    if (routesData.length === 0) {
+                                        alert("未找到与该机场相关的航线。");
+                                        return;
+                                    }
+
+                                    // 合并往返航班
+                                    const combinedRoutes = {};
+                                    routesData.forEach(route => {
+                                        const key = route.origin.join(",") + "-" + route.destination.join(",");
+                                        const reverseKey = route.destination.join(",") + "-" + route.origin.join(",");
+
+                                        // 将航班号字符串分割成数组
+                                        const routeFlights = route.flights.flatMap(flightStr =>
+                                            flightStr.split(',').map(f => f.trim())
+                                        );
+
+                                        if (combinedRoutes[reverseKey]) {
+                                            combinedRoutes[reverseKey].returnFlights.push(...routeFlights);
+                                        } else if (combinedRoutes[key]) {
+                                            combinedRoutes[key].flights.push(...routeFlights);
+                                        } else {
+                                            combinedRoutes[key] = {
+                                                origin: route.origin,
+                                                destination: route.destination,
+                                                flights: routeFlights.slice(),
+                                                returnFlights: []
+                                            };
+                                        }
+                                    });
+
+                                    // 获取与该机场相关的所有连接机场坐标
+                                    const connectedAirports = new Set();
+                                    Object.values(combinedRoutes).forEach(route => {
+                                        connectedAirports.add(`${route.origin[0].toFixed(6)},${route.origin[1].toFixed(6)}`);
+                                        connectedAirports.add(`${route.destination[0].toFixed(6)},${route.destination[1].toFixed(6)}`);
+                                    });
+
+                                    // 更新机场点的颜色和样式
+                                    chart.series[1].data.forEach(airportPoint => {
+                                        const key = `${airportPoint.coordinates[0].toFixed(6)},${airportPoint.coordinates[1].toFixed(6)}`;
+                                        if (key === `${point.coordinates[0].toFixed(6)},${point.coordinates[1].toFixed(6)}`) {
+                                            airportPoint.update({ color: '#FF0000', marker: { radius: 2 } }, false); // 点击的机场
+                                        } else if (connectedAirports.has(key)) {
+                                            airportPoint.update({ color: '#FFA500', marker: { radius: 2 } }, false); // 相关机场
+                                        } else {
+                                            airportPoint.update({ color: '#CCCCCC', marker: { radius: 1 } }, false); // 其他机场
+                                        }
+                                    });
+
+                                    // 添加相关航线
+                                    Object.values(combinedRoutes).forEach(route => {
+                                        const originKey = `${route.origin[0].toFixed(6)},${route.origin[1].toFixed(6)}`;
+                                        const destinationKey = `${route.destination[0].toFixed(6)},${route.destination[1].toFixed(6)}`;
+                                        const originName = airportMap[originKey];
+                                        const destinationName = airportMap[destinationKey];
+
+                                        chart.addSeries({
+                                            type: 'mapline',
+                                            data: [{
+                                                geometry: {
+                                                    type: 'LineString',
+                                                    coordinates: [route.origin, route.destination]
+                                                },
+                                                tooltipText: `
+                                                    <b>航班号 (去程)：</b>${route.flights.join(", ")}<br>
+                                                    <b>航班号 (回程)：</b>${route.returnFlights.join(", ")}<br>
+                                                    <b>起点：</b>${originName}<br>
+                                                    <b>终点：</b>${destinationName}`
+                                            }],
+                                            color: '#FF0000',
+                                            lineWidth: 1,
+                                            className: 'animated-line',
+                                            enableMouseTracking: true
+                                        }, false);
+                                    });
+
+                                    chart.redraw(); // 重绘图表
+                                }
+                            }
+                        }
+                    }
+                ]
+            });
+
+            // 构建航线查询的 URL
+            function buildRoutesUrl(params) {
+                const baseUrl = 'http://localhost:3000/api/routes_i';
+                const queryParams = [];
+                if (params.origin) {
+                    queryParams.push(`originName=${encodeURIComponent(params.origin)}`);
+                }
+                if (params.destination) {
+                    queryParams.push(`destinationName=${encodeURIComponent(params.destination)}`);
+                }
+                if (params.flightNumber) {
+                    queryParams.push(`flightNumber=${encodeURIComponent(params.flightNumber)}`);
+                }
+                if (queryParams.length > 0) {
+                    return baseUrl + '?' + queryParams.join('&');
+                } else {
+                    return baseUrl;
+                }
+            }
+
+            // 搜索按钮的事件监听
+            document.getElementById('searchButton').addEventListener('click', async function() {
+                const originInput = document.getElementById('originInput').value.trim();
+                const destinationInput = document.getElementById('destinationInput').value.trim();
+                const flightNumberInput = document.getElementById('flightNumberInput').value.trim();
+
+                const params = {
+                    origin: originInput,
+                    destination: destinationInput,
+                    flightNumber: flightNumberInput
+                };
+
+                const routesUrl = buildRoutesUrl(params);
+
+                // 获取符合条件的航线数据
+                const routesData = await fetch(routesUrl)
+                    .then(response => response.json())
+                    .catch(error => {
+                        console.error("Error loading routes data:", error);
+                        return [];
+                    });
+
+                // 如果未找到任何航线，提示用户
+                if (routesData.length === 0) {
+                    alert("未找到符合条件的航线，请检查您的输入。");
+                    return;
+                }
+
+                // 清空已有航线
+                while (chart.series.length > 2) {
+                    chart.series[chart.series.length - 1].remove(false);
+                }
+
+                // 恢复所有机场点的默认样式
+                chart.series[1].data.forEach(airportPoint => {
+                    airportPoint.update({
+                        color: '#333',
+                        marker: { radius: 1 }
+                    }, false);
+                });
+
+                // 合并往返航班
+                const combinedRoutes = {};
+                routesData.forEach(route => {
+                    const key = route.origin.join(",") + "-" + route.destination.join(",");
+                    const reverseKey = route.destination.join(",") + "-" + route.origin.join(",");
+
+                    // 将航班号字符串分割成数组
+                    const routeFlights = route.flights.flatMap(flightStr =>
+                        flightStr.split(',').map(f => f.trim())
+                    );
+
+                    if (combinedRoutes[reverseKey]) {
+                        combinedRoutes[reverseKey].returnFlights.push(...routeFlights);
+                    } else if (combinedRoutes[key]) {
+                        combinedRoutes[key].flights.push(...routeFlights);
+                    } else {
+                        combinedRoutes[key] = {
+                            origin: route.origin,
+                            destination: route.destination,
+                            flights: routeFlights.slice(),
+                            returnFlights: []
+                        };
+                    }
+                });
+
+                // 获取相关机场
+                const connectedAirports = new Set();
+                Object.values(combinedRoutes).forEach(route => {
+                    connectedAirports.add(`${route.origin[0].toFixed(6)},${route.origin[1].toFixed(6)}`);
+                    connectedAirports.add(`${route.destination[0].toFixed(6)},${route.destination[1].toFixed(6)}`);
+                });
+
+                // 更新机场点的颜色和样式
+                chart.series[1].data.forEach(airportPoint => {
+                    const key = `${airportPoint.coordinates[0].toFixed(6)},${airportPoint.coordinates[1].toFixed(6)}`;
+                    if (connectedAirports.has(key)) {
+                        airportPoint.update({ color: '#FFA500', marker: { radius: 2 } }, false); // 相关机场
+                    } else {
+                        airportPoint.update({ color: '#CCCCCC', marker: { radius: 1 } }, false); // 其他机场
+                    }
+                });
+
+                // 添加相关航线
+                Object.values(combinedRoutes).forEach(route => {
+                    const originKey = `${route.origin[0].toFixed(6)},${route.origin[1].toFixed(6)}`;
+                    const destinationKey = `${route.destination[0].toFixed(6)},${route.destination[1].toFixed(6)}`;
+                    const originName = airportMap[originKey];
+                    const destinationName = airportMap[destinationKey];
+
+                    chart.addSeries({
+                        type: 'mapline',
+                        data: [{
+                            geometry: {
+                                type: 'LineString',
+                                coordinates: [route.origin, route.destination]
+                            },
+                            tooltipText: `
+                                <b>航班号 (去程)：</b>${route.flights.join(", ")}<br>
+                                <b>航班号 (回程)：</b>${route.returnFlights.join(", ")}<br>
+                                <b>起点：</b>${originName}<br>
+                                <b>终点：</b>${destinationName}`
+                        }],
+                        color: '#FF0000',
+                        lineWidth: 1,
+                        className: 'animated-line',
+                        enableMouseTracking: true
+                    }, false);
+                });
+
+                chart.redraw(); // 重绘图表
+            });
+
+        })();
+    </script>
+</body>
+</html>

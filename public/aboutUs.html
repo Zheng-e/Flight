@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h2 {
+            color: #004d99;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f1f1;
+            color: #666;
+            font-size: 12px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="Home.html">境内出发/到达</a></li>
+            <li><a href="International.html">境外出发/到达</a></li>
+            <li><a href="HeatMap.html">热图</a></li>
+            <li><a href="Airports.html">机场数据统计</a></li>
+            <li><a href="aboutUs.html">关于我们</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>课程信息</h2>
+        <ul>
+            <li><strong>课程名：</strong>数据可视化</li>
+            <li><strong>指导教师：</strong>朱敏</li>
+        </ul>
+
+        <h2>项目组信息</h2>
+        <ul>
+            <li><strong>组名：</strong>畅通无组</li>
+            <li><strong>成员：</strong></li>
+            <ul>
+                <li>郑忆（组长，软件工程专业2022级）</li>
+                <li>褚熹（组员，软件工程专业2022级）</li>
+                <li>赵昱博（组员，口腔数字化技术2023级）</li>
+            </ul>
+        </ul>
+
+        <h2>项目简介</h2>
+        <p>
+            本项目的目标是通过交互式数据可视化技术，展示中国及国际机场的航线分布、机场吞吐量和航班流量等信息。以下是项目的主要内容：
+        </p>
+        <h3>项目目标</h3>
+        <ul>
+            <li>通过动态交互式地图，直观展示航线分布和机场信息。</li>
+            <li>分析中国境内和国际航班的运行数据，帮助用户更好地理解航空运输的规律。</li>
+            <li>利用数据可视化技术，为决策者和研究者提供数据支持。</li>
+        </ul>
+
+        <h3>技术栈</h3>
+        <ul>
+            <li><strong>前端：</strong>HTML、CSS、JavaScript、Highcharts 图表库。</li>
+            <li><strong>后端：</strong>Node.js、Express 框架。</li>
+            <li><strong>数据库：</strong>JSON 文件（模拟数据库）。</li>
+        </ul>
+
+        <h3>主要功能</h3>
+        <ul>
+            <li>支持按机场名称、航班号、经纬度等条件查询航线。</li>
+            <li>动态生成航线图、热力图和机场统计数据的柱状图。</li>
+            <li>国际和国内航班信息分区展示，支持跨年数据的趋势分析。</li>
+        </ul>
+
+        <h3>实际意义</h3>
+        <p>
+            随着民航运输的快速发展，航空业的数据呈现变得越来越重要。本项目通过将复杂的航班数据转化为直观的可视化图表，有助于：
+        </p>
+        <ul>
+            <li>为航空运输规划提供支持，帮助优化航线布局。</li>
+            <li>为研究者和学生提供一个学习和探索数据可视化技术的实际案例。</li>
+            <li>提升公众对航空运输网络的理解和兴趣。</li>
+        </ul>
+    </div>
+
+    <footer>
+        © 2024 畅通无组 | 数据可视化课程项目
+    </footer>
+</body>
+</html>

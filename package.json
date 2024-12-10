@@ -1,0 +1,12 @@
+{
+  "name": "flight-routes-api",
+  "version": "1.0.0",
+  "description": "A simple API server for serving airport and route data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

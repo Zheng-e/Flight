@@ -1,0 +1,2752 @@
+[
+    {
+        "name": "福冈",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                130.444756,
+                33.59534
+            ]
+        }
+    },
+    {
+        "name": "孟买/尼赫鲁",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                72.856026,
+                19.088571
+            ]
+        }
+    },
+    {
+        "name": "吉隆坡/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                101.694251,
+                2.741848
+            ]
+        }
+    },
+    {
+        "name": "柏林/申费尔德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                13.503212,
+                52.364084
+            ]
+        }
+    },
+    {
+        "name": "孟菲斯/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -89.976608,
+                35.045117
+            ]
+        }
+    },
+    {
+        "name": "盐城/南洋",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.206314,
+                33.432893
+            ]
+        }
+    },
+    {
+        "name": "济州/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                126.489114,
+                33.505954
+            ]
+        }
+    },
+    {
+        "name": "徐州/观音",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                117.558038,
+                34.056497
+            ]
+        }
+    },
+    {
+        "name": "曼谷/素万那普",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.74555,
+                13.684625
+            ]
+        }
+    },
+    {
+        "name": "克拉克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.556641,
+                15.186007
+            ]
+        }
+    },
+    {
+        "name": "洛阳/北郊",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.388151,
+                34.737637
+            ]
+        }
+    },
+    {
+        "name": "冲绳/那霸",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                127.648617,
+                26.210458
+            ]
+        }
+    },
+    {
+        "name": "多哈/哈马德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                51.604905,
+                25.267004
+            ]
+        }
+    },
+    {
+        "name": "杭州/萧山",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.438504,
+                30.236393
+            ]
+        }
+    },
+    {
+        "name": "桂林/两江",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                110.044941,
+                25.216161
+            ]
+        }
+    },
+    {
+        "name": "东京成田/成田",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                140.37718,
+                35.769594
+            ]
+        }
+    },
+    {
+        "name": "鹿儿岛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                130.717888,
+                31.800865
+            ]
+        }
+    },
+    {
+        "name": "利雅得/哈利德国王",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                46.695704,
+                24.954525
+            ]
+        }
+    },
+    {
+        "name": "延吉/朝阳川",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                129.439103,
+                42.883628
+            ]
+        }
+    },
+    {
+        "name": "日内瓦",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                6.103034,
+                46.231356
+            ]
+        }
+    },
+    {
+        "name": "关岛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                144.796314,
+                13.485176
+            ]
+        }
+    },
+    {
+        "name": "茨城",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                140.415807,
+                36.181915
+            ]
+        }
+    },
+    {
+        "name": "台北/桃园",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.232739,
+                25.081756
+            ]
+        }
+    },
+    {
+        "name": "福州/长乐",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                119.666687,
+                25.931671
+            ]
+        }
+    },
+    {
+        "name": "德里/英迪拉·甘地",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                77.085331,
+                28.54839
+            ]
+        }
+    },
+    {
+        "name": "小松",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                136.405076,
+                36.392627
+            ]
+        }
+    },
+    {
+        "name": "莱比锡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.22625,
+                51.417853
+            ]
+        }
+    },
+    {
+        "name": "慕尼黑",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.783603,
+                48.360897
+            ]
+        }
+    },
+    {
+        "name": "比什凯克/玛纳斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                74.468614,
+                43.054823
+            ]
+        }
+    },
+    {
+        "name": "乌里扬诺夫斯克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                48.796661,
+                54.413134
+            ]
+        }
+    },
+    {
+        "name": "夏威夷/火奴鲁鲁",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -157.926947,
+                21.328116
+            ]
+        }
+    },
+    {
+        "name": "亚庇/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                116.049383,
+                5.92308
+            ]
+        }
+    },
+    {
+        "name": "喀布尔/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                69.209033,
+                34.563615
+            ]
+        }
+    },
+    {
+        "name": "伯恩茅斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -1.841688,
+                50.780576
+            ]
+        }
+    },
+    {
+        "name": "贵阳/龙洞堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.799361,
+                26.541076
+            ]
+        }
+    },
+    {
+        "name": "芝加哥/奥黑尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -87.903908,
+                41.983462
+            ]
+        }
+    },
+    {
+        "name": "台中/清泉岗",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.620824,
+                24.261777
+            ]
+        }
+    },
+    {
+        "name": "大分",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                131.735342,
+                33.479923
+            ]
+        }
+    },
+    {
+        "name": "伦敦/盖特维克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.17878,
+                51.155709
+            ]
+        }
+    },
+    {
+        "name": "乌隆",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                102.775571,
+                17.387777
+            ]
+        }
+    },
+    {
+        "name": "香港/赤邋角",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.925054,
+                22.31596
+            ]
+        }
+    },
+    {
+        "name": "维也纳/斯韦夏特",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                16.558417,
+                48.11915
+            ]
+        }
+    },
+    {
+        "name": "天津/滨海",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                117.360305,
+                39.129158
+            ]
+        }
+    },
+    {
+        "name": "常州/奔牛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                119.784182,
+                31.914006
+            ]
+        }
+    },
+    {
+        "name": "斯里巴加湾",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                114.931611,
+                4.944854
+            ]
+        }
+    },
+    {
+        "name": "迪拜/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                55.358228,
+                25.259407
+            ]
+        }
+    },
+    {
+        "name": "三亚/凤凰",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                109.411054,
+                18.305962
+            ]
+        }
+    },
+    {
+        "name": "莫斯科/谢列梅杰沃",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.411022,
+                55.97327
+            ]
+        }
+    },
+    {
+        "name": "下诺夫哥罗德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                43.787761,
+                56.219696
+            ]
+        }
+    },
+    {
+        "name": "名古屋/中部国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                136.811391,
+                34.856907
+            ]
+        }
+    },
+    {
+        "name": "沙迦/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                55.520572,
+                25.323644
+            ]
+        }
+    },
+    {
+        "name": "富山",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                137.187172,
+                36.648037
+            ]
+        }
+    },
+    {
+        "name": "阿布扎比/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                54.645474,
+                24.448245
+            ]
+        }
+    },
+    {
+        "name": "宿务/拉普拉普",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                123.977822,
+                10.312874
+            ]
+        }
+    },
+    {
+        "name": "奥斯陆/加勒穆恩",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.094085,
+                60.196665
+            ]
+        }
+    },
+    {
+        "name": "洛杉矶/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.408595,
+                33.941998
+            ]
+        }
+    },
+    {
+        "name": "科威特国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                47.970853,
+                29.239674
+            ]
+        }
+    },
+    {
+        "name": "马德里/巴拉哈斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.562675,
+                40.484565
+            ]
+        }
+    },
+    {
+        "name": "札幌/新千岁",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                141.674054,
+                42.786981
+            ]
+        }
+    },
+    {
+        "name": "圣彼得堡/普尔科夫",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.267163,
+                59.803387
+            ]
+        }
+    },
+    {
+        "name": "丽江/三义",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.244486,
+                26.667915
+            ]
+        }
+    },
+    {
+        "name": "明斯克/洛希察",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                28.030232,
+                53.889186
+            ]
+        }
+    },
+    {
+        "name": "曼彻斯特",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -2.282986,
+                53.365061
+            ]
+        }
+    },
+    {
+        "name": "达拉斯/沃思堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -97.045306,
+                32.900303
+            ]
+        }
+    },
+    {
+        "name": "比隆",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.145294,
+                55.745065
+            ]
+        }
+    },
+    {
+        "name": "乌鲁木齐/地窝堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                87.480414,
+                43.911048
+            ]
+        }
+    },
+    {
+        "name": "南通/兴东",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.977508,
+                32.070751
+            ]
+        }
+    },
+    {
+        "name": "达卡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                90.403279,
+                23.844435
+            ]
+        }
+    },
+    {
+        "name": "恩施/许家坪",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                109.48523,
+                30.319843
+            ]
+        }
+    },
+    {
+        "name": "哈尔滨/太平",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                126.242126,
+                45.621797
+            ]
+        }
+    },
+    {
+        "name": "桑给巴尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.222076,
+                -6.222854
+            ]
+        }
+    },
+    {
+        "name": "长春/龙嘉",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                125.695918,
+                43.995813
+            ]
+        }
+    },
+    {
+        "name": "沙隆",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                4.188591,
+                48.77975
+            ]
+        }
+    },
+    {
+        "name": "都柏林",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.248046,
+                53.426541
+            ]
+        }
+    },
+    {
+        "name": "内罗毕",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                36.928723,
+                -1.31847
+            ]
+        }
+    },
+    {
+        "name": "卡拉干达",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                73.332331,
+                49.670722
+            ]
+        }
+    },
+    {
+        "name": "曼谷/廊曼",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.603884,
+                13.915149
+            ]
+        }
+    },
+    {
+        "name": "纳沃伊",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                65.176315,
+                40.120975
+            ]
+        }
+    },
+    {
+        "name": "重庆/江北",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.639242,
+                29.719353
+            ]
+        }
+    },
+    {
+        "name": "南京/禄口",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                118.871513,
+                31.732781
+            ]
+        }
+    },
+    {
+        "name": "叶卡捷琳堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                60.801017,
+                56.744951
+            ]
+        }
+    },
+    {
+        "name": "德宏/芒市",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                98.531184,
+                24.402672
+            ]
+        }
+    },
+    {
+        "name": "阿尔及尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                3.20028,
+                36.701392
+            ]
+        }
+    },
+    {
+        "name": "北京/首都",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                116.601953,
+                40.079833
+            ]
+        }
+    },
+    {
+        "name": "烈日/比耶尔塞",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                5.444271,
+                50.640096
+            ]
+        }
+    },
+    {
+        "name": "槟城",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.274533,
+                5.294633
+            ]
+        }
+    },
+    {
+        "name": "华沙/奥肯切",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.969451,
+                52.170189
+            ]
+        }
+    },
+    {
+        "name": "满洲里/西郊",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                117.328432,
+                49.569733
+            ]
+        }
+    },
+    {
+        "name": "拉萨/贡嘎国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                90.89753,
+                29.294374
+            ]
+        }
+    },
+    {
+        "name": "临沂/启阳",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                118.410001,
+                35.043267
+            ]
+        }
+    },
+    {
+        "name": "塔什干/尤日内",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                69.277799,
+                41.258122
+            ]
+        }
+    },
+    {
+        "name": "赫尔辛基/万塔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                24.948838,
+                60.316762
+            ]
+        }
+    },
+    {
+        "name": "鄂尔多斯/伊金霍洛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                109.860578,
+                39.496361
+            ]
+        }
+    },
+    {
+        "name": "布拉戈维申斯克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                127.414663,
+                50.430776
+            ]
+        }
+    },
+    {
+        "name": "喀山",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.279467,
+                55.608495
+            ]
+        }
+    },
+    {
+        "name": "新泻",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                139.111042,
+                37.954132
+            ]
+        }
+    },
+    {
+        "name": "清迈",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                98.966816,
+                18.768593
+            ]
+        }
+    },
+    {
+        "name": "西安/咸阳",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                108.759017,
+                34.435104
+            ]
+        }
+    },
+    {
+        "name": "西宁/曹家堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                102.039333,
+                36.527543
+            ]
+        }
+    },
+    {
+        "name": "温州/龙湾",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.853589,
+                27.910803
+            ]
+        }
+    },
+    {
+        "name": "暹粒/吴哥国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                104.220458,
+                13.374135
+            ]
+        }
+    },
+    {
+        "name": "约翰内斯堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                28.245872,
+                -26.139054
+            ]
+        }
+    },
+    {
+        "name": "威尼斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.343245,
+                45.506294
+            ]
+        }
+    },
+    {
+        "name": "彼尔姆/彼尔姆",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                56.028779,
+                57.918444
+            ]
+        }
+    },
+    {
+        "name": "贝尔格莱德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.293072,
+                44.818503
+            ]
+        }
+    },
+    {
+        "name": "西双版纳/嘎洒",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.765403,
+                21.972265
+            ]
+        }
+    },
+    {
+        "name": "多伦多/莱斯特皮尔逊",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -79.614134,
+                43.678945
+            ]
+        }
+    },
+    {
+        "name": "佐贺",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                130.300391,
+                33.149913
+            ]
+        }
+    },
+    {
+        "name": "乌兰巴托/新成吉思汗国际机场",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.764273,
+                47.850403
+            ]
+        }
+    },
+    {
+        "name": "斗湖",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                118.11402,
+                4.312402
+            ]
+        }
+    },
+    {
+        "name": "符拉迪沃斯托克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                132.146219,
+                43.395126
+            ]
+        }
+    },
+    {
+        "name": "石家庄/正定",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                114.694854,
+                38.280614
+            ]
+        }
+    },
+    {
+        "name": "长沙/黄花",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.22123,
+                28.196345
+            ]
+        }
+    },
+    {
+        "name": "高雄",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.346607,
+                22.574418
+            ]
+        }
+    },
+    {
+        "name": "克拉斯诺达尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.141058,
+                45.033646
+            ]
+        }
+    },
+    {
+        "name": "奥克兰/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -122.218438,
+                37.730058
+            ]
+        }
+    },
+    {
+        "name": "威海/大水泊国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                122.228685,
+                37.186305
+            ]
+        }
+    },
+    {
+        "name": "斯德哥尔摩/阿兰达",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                17.92368,
+                59.648665
+            ]
+        }
+    },
+    {
+        "name": "运城/盐湖国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                111.037295,
+                35.115952
+            ]
+        }
+    },
+    {
+        "name": "伦敦/希思罗",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.465013,
+                51.467172
+            ]
+        }
+    },
+    {
+        "name": "伦敦/斯坦斯特德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                0.257904,
+                51.890413
+            ]
+        }
+    },
+    {
+        "name": "哥本哈根/凯什楚普",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.640289,
+                55.623729
+            ]
+        }
+    },
+    {
+        "name": "赤塔/卡达拉",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.306251,
+                52.021775
+            ]
+        }
+    },
+    {
+        "name": "清州",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                127.496388,
+                36.720661
+            ]
+        }
+    },
+    {
+        "name": "宜昌/三峡国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                111.481757,
+                30.550125
+            ]
+        }
+    },
+    {
+        "name": "苏腊巴亚/朱安达",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.786291,
+                -7.378148
+            ]
+        }
+    },
+    {
+        "name": "加德满都/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                85.358048,
+                27.698717
+            ]
+        }
+    },
+    {
+        "name": "义乌",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.02922,
+                29.34145
+            ]
+        }
+    },
+    {
+        "name": "第比利斯/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                44.962745,
+                41.668617
+            ]
+        }
+    },
+    {
+        "name": "温哥华/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -123.18209,
+                49.198107
+            ]
+        }
+    },
+    {
+        "name": "富国岛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                103.996894,
+                10.164886
+            ]
+        }
+    },
+    {
+        "name": "西哈努克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                103.637511,
+                10.580709
+            ]
+        }
+    },
+    {
+        "name": "罗勇/乌塔堡 罗勇 芭堤雅",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.99955,
+                12.673448
+            ]
+        }
+    },
+    {
+        "name": "高松",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                134.013366,
+                34.215259
+            ]
+        }
+    },
+    {
+        "name": "巴厘岛/登巴萨",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                115.169936,
+                -8.745952
+            ]
+        }
+    },
+    {
+        "name": "科隆/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.122167,
+                50.876166
+            ]
+        }
+    },
+    {
+        "name": "科伦坡/班达拉奈克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.883724,
+                7.179186
+            ]
+        }
+    },
+    {
+        "name": "釜山/金海",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                128.944979,
+                35.172343
+            ]
+        }
+    },
+    {
+        "name": "澳门",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.588405,
+                22.157078
+            ]
+        }
+    },
+    {
+        "name": "阿姆斯特丹/斯希普霍",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                4.762694,
+                52.315557
+            ]
+        }
+    },
+    {
+        "name": "黄山/屯溪",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                118.260131,
+                29.730442
+            ]
+        }
+    },
+    {
+        "name": "德黑兰/霍梅尼",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                51.154847,
+                35.411185
+            ]
+        }
+    },
+    {
+        "name": "哈巴罗夫斯克/诺维",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                135.171771,
+                48.524205
+            ]
+        }
+    },
+    {
+        "name": "米兰/马尔彭萨",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.721863,
+                45.631278
+            ]
+        }
+    },
+    {
+        "name": "安克雷奇/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -149.991536,
+                61.176917
+            ]
+        }
+    },
+    {
+        "name": "北京/大兴",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                116.411183,
+                39.510293
+            ]
+        }
+    },
+    {
+        "name": "蒂华纳",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -116.970695,
+                32.541478
+            ]
+        }
+    },
+    {
+        "name": "大邱",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                128.639191,
+                35.900153
+            ]
+        }
+    },
+    {
+        "name": "富士山静冈",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                138.184485,
+                34.797602
+            ]
+        }
+    },
+    {
+        "name": "东京羽田/羽田",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                139.779646,
+                35.551594
+            ]
+        }
+    },
+    {
+        "name": "巴林/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                50.629188,
+                26.268811
+            ]
+        }
+    },
+    {
+        "name": "珀斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                115.96595,
+                -31.935851
+            ]
+        }
+    },
+    {
+        "name": "南宁/吴圩",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                108.169942,
+                22.610932
+            ]
+        }
+    },
+    {
+        "name": "土库曼纳巴特/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                63.565252,
+                38.93686
+            ]
+        }
+    },
+    {
+        "name": "南昌/昌北",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                115.906323,
+                28.859758
+            ]
+        }
+    },
+    {
+        "name": "仰光",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                96.12905,
+                16.90014
+            ]
+        }
+    },
+    {
+        "name": "烟台/蓬莱",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.989304,
+                37.660388
+            ]
+        }
+    },
+    {
+        "name": "合肥/新桥",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                116.981373,
+                31.973785
+            ]
+        }
+    },
+    {
+        "name": "法兰克福/美茵",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.570762,
+                50.041447
+            ]
+        }
+    },
+    {
+        "name": "亚的斯亚贝巴/博莱",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                38.796274,
+                8.980958
+            ]
+        }
+    },
+    {
+        "name": "开罗/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                31.407836,
+                30.107284
+            ]
+        }
+    },
+    {
+        "name": "宁波/栎社",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.458249,
+                29.825388
+            ]
+        }
+    },
+    {
+        "name": "巴黎/戴高乐",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                2.558937,
+                48.996245
+            ]
+        }
+    },
+    {
+        "name": "张家界/荷花",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                110.448562,
+                29.105993
+            ]
+        }
+    },
+    {
+        "name": "墨西哥城国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -99.079597,
+                19.432122
+            ]
+        }
+    },
+    {
+        "name": "古晋",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                110.342049,
+                1.485782
+            ]
+        }
+    },
+    {
+        "name": "乌兰乌德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                107.442851,
+                51.805795
+            ]
+        }
+    },
+    {
+        "name": "阿斯塔纳",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                71.459885,
+                51.025779
+            ]
+        }
+    },
+    {
+        "name": "巴士拉",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                47.667332,
+                30.552003
+            ]
+        }
+    },
+    {
+        "name": "布鲁塞尔/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                4.479532,
+                50.904365
+            ]
+        }
+    },
+    {
+        "name": "成都/天府",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                104.44127,
+                30.314297
+            ]
+        }
+    },
+    {
+        "name": "佳木斯/东郊",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                130.45855,
+                46.843679
+            ]
+        }
+    },
+    {
+        "name": "平壤/金刚山",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                125.673851,
+                39.201104
+            ]
+        }
+    },
+    {
+        "name": "新山/士乃",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                103.667584,
+                1.636634
+            ]
+        }
+    },
+    {
+        "name": "万象/瓦岱",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                102.569336,
+                17.976417
+            ]
+        }
+    },
+    {
+        "name": "墨尔本/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                144.845123,
+                -37.672598
+            ]
+        }
+    },
+    {
+        "name": "成都/双流",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                103.94406,
+                30.561684
+            ]
+        }
+    },
+    {
+        "name": "伊斯坦布尔/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                28.742938,
+                41.27032
+            ]
+        }
+    },
+    {
+        "name": "卡拉奇/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                67.16762,
+                24.903205
+            ]
+        }
+    },
+    {
+        "name": "济南/遥墙",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                117.213546,
+                36.857226
+            ]
+        }
+    },
+    {
+        "name": "长崎",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                129.913128,
+                32.917177
+            ]
+        }
+    },
+    {
+        "name": "广州/白云",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.307358,
+                23.397316
+            ]
+        }
+    },
+    {
+        "name": "务安",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                126.386203,
+                34.994094
+            ]
+        }
+    },
+    {
+        "name": "华盛顿/杜勒斯国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -77.450819,
+                38.950443
+            ]
+        }
+    },
+    {
+        "name": "台北/松山",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.551121,
+                25.065673
+            ]
+        }
+    },
+    {
+        "name": "柳州/白莲",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                109.398178,
+                24.204415
+            ]
+        }
+    },
+    {
+        "name": "卢森堡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                6.210872,
+                49.629338
+            ]
+        }
+    },
+    {
+        "name": "巴塔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.801088,
+                1.900629
+            ]
+        }
+    },
+    {
+        "name": "美娜多",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                124.924407,
+                1.541873
+            ]
+        }
+    },
+    {
+        "name": "郑州/新郑",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.842981,
+                34.523883
+            ]
+        }
+    },
+    {
+        "name": "海防/吉悲",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.722073,
+                20.819281
+            ]
+        }
+    },
+    {
+        "name": "加尔各答",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                88.444561,
+                22.653692
+            ]
+        }
+    },
+    {
+        "name": "琅勃拉邦",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                102.165616,
+                19.903055
+            ]
+        }
+    },
+    {
+        "name": "布达佩斯/费里海吉",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.256949,
+                47.437217
+            ]
+        }
+    },
+    {
+        "name": "新西伯利亚/托尔马桥",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                82.650049,
+                55.012209
+            ]
+        }
+    },
+    {
+        "name": "莫斯科/伏努科沃",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.268251,
+                55.600212
+            ]
+        }
+    },
+    {
+        "name": "金奈",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                80.161409,
+                12.984022
+            ]
+        }
+    },
+    {
+        "name": "仙台",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                140.915912,
+                38.14054
+            ]
+        }
+    },
+    {
+        "name": "兰州/中川",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                103.618069,
+                36.515388
+            ]
+        }
+    },
+    {
+        "name": "达曼",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.79462,
+                26.467796
+            ]
+        }
+    },
+    {
+        "name": "底特律/大都会",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -83.34858,
+                42.228118
+            ]
+        }
+    },
+    {
+        "name": "首尔/金浦",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                126.799204,
+                37.566491
+            ]
+        }
+    },
+    {
+        "name": "太原/武宿",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.63035,
+                37.748768
+            ]
+        }
+    },
+    {
+        "name": "淮安/涟水",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                119.129069,
+                33.790069
+            ]
+        }
+    },
+    {
+        "name": "布里斯班",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                153.116214,
+                -27.399417
+            ]
+        }
+    },
+    {
+        "name": "昆明/长水",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                102.930861,
+                25.099202
+            ]
+        }
+    },
+    {
+        "name": "克拉斯诺亚尔斯克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                92.479047,
+                56.17634
+            ]
+        }
+    },
+    {
+        "name": "罗斯托夫",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.803933,
+                47.253853
+            ]
+        }
+    },
+    {
+        "name": "西雅图/塔科马",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -122.308966,
+                47.445047
+            ]
+        }
+    },
+    {
+        "name": "沈阳/桃仙",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                123.490629,
+                41.638296
+            ]
+        }
+    },
+    {
+        "name": "武汉/天河",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                114.216446,
+                30.775255
+            ]
+        }
+    },
+    {
+        "name": "清莱",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                99.880115,
+                19.953971
+            ]
+        }
+    },
+    {
+        "name": "里斯本",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -9.139437,
+                38.771348
+            ]
+        }
+    },
+    {
+        "name": "河内/内排",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                105.802796,
+                21.216038
+            ]
+        }
+    },
+    {
+        "name": "阿拉木图",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                77.01429,
+                43.347423
+            ]
+        }
+    },
+    {
+        "name": "达卡",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                90.403279,
+                23.844975
+            ]
+        }
+    },
+    {
+        "name": "埃里温",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                44.39606,
+                40.15216
+            ]
+        }
+    },
+    {
+        "name": "拉合尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                74.408587,
+                31.52008
+            ]
+        }
+    },
+    {
+        "name": "无锡/硕放",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.435139,
+                31.498324
+            ]
+        }
+    },
+    {
+        "name": "巴格达",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                44.234001,
+                33.269173
+            ]
+        }
+    },
+    {
+        "name": "阿德莱德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                138.53014,
+                -34.945683
+            ]
+        }
+    },
+    {
+        "name": "深圳/宝安",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                113.81452,
+                22.638927
+            ]
+        }
+    },
+    {
+        "name": "马尼拉/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.012913,
+                14.515937
+            ]
+        }
+    },
+    {
+        "name": "厦门/高崎",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                118.142332,
+                24.54816
+            ]
+        }
+    },
+    {
+        "name": "罗马/菲乌米奇诺",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.247378,
+                41.802978
+            ]
+        }
+    },
+    {
+        "name": "胡志明市/新山一",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.661889,
+                10.817678
+            ]
+        }
+    },
+    {
+        "name": "泉州/晋江",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                118.592894,
+                24.799801
+            ]
+        }
+    },
+    {
+        "name": "海德拉巴",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.427105,
+                17.232725
+            ]
+        }
+    },
+    {
+        "name": "首尔/仁川",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                126.441206,
+                37.459339
+            ]
+        }
+    },
+    {
+        "name": "莫斯科/茹科夫斯基 拉缅斯科耶",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                38.117457,
+                55.560983
+            ]
+        }
+    },
+    {
+        "name": "基督城",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                172.536662,
+                -43.488759
+            ]
+        }
+    },
+    {
+        "name": "牡丹江/海浪",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                129.568642,
+                44.524373
+            ]
+        }
+    },
+    {
+        "name": "岘港",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                108.200745,
+                16.057279
+            ]
+        }
+    },
+    {
+        "name": "特拉维夫/本古里安",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                34.872535,
+                32.008416
+            ]
+        }
+    },
+    {
+        "name": "南萨哈林斯克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                142.722074,
+                46.88684
+            ]
+        }
+    },
+    {
+        "name": "雅加达/苏加诺",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.656939,
+                -6.117331
+            ]
+        }
+    },
+    {
+        "name": "揭阳/潮汕",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                116.508587,
+                23.549631
+            ]
+        }
+    },
+    {
+        "name": "苏黎世",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.552609,
+                47.456843
+            ]
+        }
+    },
+    {
+        "name": "上海/浦东",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.807758,
+                31.143931
+            ]
+        }
+    },
+    {
+        "name": "莫尔兹比港",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                147.213196,
+                -9.437155
+            ]
+        }
+    },
+    {
+        "name": "巴库/比纳",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.972507,
+                40.49676
+            ]
+        }
+    },
+    {
+        "name": "上海/虹桥",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.329748,
+                31.192659
+            ]
+        }
+    },
+    {
+        "name": "呼和浩特/白塔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                111.820708,
+                40.853799
+            ]
+        }
+    },
+    {
+        "name": "迪拜/阿勒马克图姆",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                55.15553,
+                24.887128
+            ]
+        }
+    },
+    {
+        "name": "青岛/胶东",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                120.085362,
+                36.360964
+            ]
+        }
+    },
+    {
+        "name": "雅典/埃莱夫塞里奥斯·韦尼泽洛斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                23.946176,
+                37.9422
+            ]
+        }
+    },
+    {
+        "name": "扬州/泰州",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                119.714096,
+                32.563084
+            ]
+        }
+    },
+    {
+        "name": "巴塞罗那",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                2.074333,
+                41.297902
+            ]
+        }
+    },
+    {
+        "name": "海口/美兰",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                110.456231,
+                19.939093
+            ]
+        }
+    },
+    {
+        "name": "哈恩",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.260625,
+                49.942474
+            ]
+        }
+    },
+    {
+        "name": "班加罗尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                77.71203,
+                13.202807
+            ]
+        }
+    },
+    {
+        "name": "旧金山/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -122.38975,
+                37.615747
+            ]
+        }
+    },
+    {
+        "name": "新加坡/樟宜",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                103.992409,
+                1.35324
+            ]
+        }
+    },
+    {
+        "name": "金边/波成东",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                104.844664,
+                11.550967
+            ]
+        }
+    },
+    {
+        "name": "马累",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                73.530471,
+                4.196706
+            ]
+        }
+    },
+    {
+        "name": "曼德勒",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                95.971825,
+                21.706437
+            ]
+        }
+    },
+    {
+        "name": "广岛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                132.919282,
+                34.437199
+            ]
+        }
+    },
+    {
+        "name": "吉达/阿卜杜勒.阿齐兹",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.165011,
+                21.660345
+            ]
+        }
+    },
+    {
+        "name": "伊斯兰堡/国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                72.831418,
+                33.555994
+            ]
+        }
+    },
+    {
+        "name": "银川/河东",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                106.387092,
+                38.322769
+            ]
+        }
+    },
+    {
+        "name": "芽庄/金兰机场",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                109.219299,
+                11.997228
+            ]
+        }
+    },
+    {
+        "name": "苏梅岛",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                100.062255,
+                9.548278
+            ]
+        }
+    },
+    {
+        "name": "大阪/关西",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                135.234951,
+                34.440262
+            ]
+        }
+    },
+    {
+        "name": "伊尔库茨克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                104.382875,
+                52.270005
+            ]
+        }
+    },
+    {
+        "name": "杜尚别",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                68.813008,
+                38.547708
+            ]
+        }
+    },
+    {
+        "name": "雅库茨克",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                129.752275,
+                62.086483
+            ]
+        }
+    },
+    {
+        "name": "普吉",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                98.304217,
+                8.104937
+            ]
+        }
+    },
+    {
+        "name": "达累斯萨拉姆/尼雷尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.209026,
+                -6.871484
+            ]
+        }
+    },
+    {
+        "name": "鄂州/花湖国际",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                115.029403,
+                30.342976
+            ]
+        }
+    },
+    {
+        "name": "悉尼/金斯福德史密斯",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                151.173118,
+                -33.938047
+            ]
+        }
+    },
+    {
+        "name": "达沃",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                125.644929,
+                7.129026
+            ]
+        }
+    },
+    {
+        "name": "呼伦贝尔/海拉尔",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                119.816641,
+                49.209446
+            ]
+        }
+    },
+    {
+        "name": "阿什哈巴德",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                58.371893,
+                37.980636
+            ]
+        }
+    },
+    {
+        "name": "大连/周水子",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                121.537228,
+                38.965214
+            ]
+        }
+    },
+    {
+        "name": "纽约/肯尼迪",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -73.767261,
+                40.646742
+            ]
+        }
+    }
+]
